@@ -39,7 +39,7 @@ const config = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: "SMS Bump - Forms",
+            title: "SMSBump Forms",
             template: "!!handlebars-loader!src/index.handlebars",
         }),
     ],
