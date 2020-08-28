@@ -1,0 +1,20 @@
+{
+  "name": "yotpo-task",
+  "version": "1.0.0",
+  "description": "Simple UI solution",
+  "main": "index.js",
+  "author": "Emanuil Ganchev",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/webpack": "^4.41.21",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
