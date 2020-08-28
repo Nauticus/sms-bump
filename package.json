@@ -8,6 +8,9 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --progress --verbose --config webpack.config.js"
   },
+  "resolutions": {
+    "@types/webpack": "^4.41.13"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
