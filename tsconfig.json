@@ -10,8 +10,10 @@
     "jsx": "react",
     "strict": true,
     "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "paths": {
-      "app/*": ["src/*"]
+      "app/*": ["src/*"],
+      "static/*": ["static/*"]
     }
   },
   "include": ["src/**/*"],

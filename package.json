@@ -6,23 +6,28 @@
   "author": "Emanuil Ganchev",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --progress --verbose --config webpack.config.js"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --progress --config webpack.config.js"
   },
   "resolutions": {
-    "@types/webpack": "^4.41.13"
+    "@types/webpack": "^4.41.13",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
+    "@svgr/webpack": "^5.4.0",
+    "@types/classnames": "^2.2.10",
     "@types/node": "^14.6.1",
     "@types/react": "^16.9.48",
     "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.2",
     "@types/webpack": "^4.41.21",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
     "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^7.0.2",
     "eslint": "^7.7.0",
@@ -36,7 +41,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   }
 }
