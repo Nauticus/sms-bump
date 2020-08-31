@@ -21,6 +21,7 @@ export const Artefact = styled.button`
     padding: 19px 30px;
     border: none;
     border-radius: 4px;
+    margin: 0;
     cursor: pointer;
     background-color: transparent;
     color: ${colors.smsbump};
