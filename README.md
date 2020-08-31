@@ -14,7 +14,7 @@ yarn install
 
 ---
 
-To run (development mode)
+To run (development mode only so far)
 
 ```
 yarn start
